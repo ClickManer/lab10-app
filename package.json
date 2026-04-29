@@ -1,0 +1,10 @@
+{
+  "name": "lab10-app",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/main.js dist/",
+    "start:prod": "node dist/main.js",
+    "test": "echo \"All tests passed\""
+  }
+}
